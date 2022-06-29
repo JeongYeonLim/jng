@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>join page</title>
+    <link rel="stylesheet" href="join_style_develop.css">
+</head>
+
+<body>
+
+    <div class="join_wrap">
+        <h2>JOIN</h2>
+        <div class="join_form">
+            <form class="id_pw_wrap" autocomplete="off">
+                <!-- id 입력 -->
+                <input type="ID" name="id" id="JOIN_ID" placeholder=" ID를 입력하세요." class="input_id" maxlength="55" value>
+                <br><br>
+                <!-- password입력 -->
+                <input type="password" name="pw" id="JOIN_PW" placeholder=" PASSWORD를 입력하세요." class="input_pw"
+                    maxlength="16">
+            </form>
+        </div>
+
+        <div class="button_collect">
+            <!-- 가입 버튼 -->
+            <button class="btn_join" id="join" onclick="join_check();">
+                가입
+            </button>
+            <!-- 취소 버튼(로그인 화면으로 back) -->
+            <button class="btn_cancel" id="cancel" onclick="back();">
+                취소
+            </button>
+        </div>
+
+    </div>
+
+    <script src="login_do_develop.js"></script>
+</body>
+
+</html>
