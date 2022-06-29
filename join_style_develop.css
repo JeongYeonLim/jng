@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.join_wrap {
+    width: 400px;
+    height: 100vh;
+    /*1vh는 화면의 1% */
+    background: white;
+    border-radius: 20px;
+    /*모서리 둥글게*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /*가로에서 가운데*/
+    align-items: center;
+    /*세로에서 가운데*/
+    flex-direction: column;
+    /*column을 기준으로 width 사이즈 같게 모임*/
+    border: 1px solid lightgray;
+}
+
+h2 {
+    color: rgba(70, 210, 98, 0.8);
+    font-size: 2.5em;
+    margin: 20px;
+}
+
+.join_form {
+    align-items: center;
+    justify-content: center;
+}
+
+.id_pw_wrap {
+    width: 450px;
+    height: 100px;
+    padding: 10px;
+    margin: 15px auto;
+    text-align: center;
+    align-items: center;
+}
+
+.login_id {
+    margin-top: 40px;
+    width: 100px;
+}
+
+input {
+    width: 260px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    outline: none;
+}
+
+.login_pw {
+    margin-top: 20px;
+    width: 150px;
+}
+
+.button_collect {
+    width: 450px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn_join {
+    margin: 15px auto;
+    margin-bottom: 2px;
+    width: 260px;
+    height: 25px;
+    border: 0;
+    outline: none;
+    border-radius: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.btn_cancel {
+    margin: 15px auto;
+    margin-top: 3px;
+    width: 260px;
+    height: 25px;
+    border: 0;
+    outline: none;
+    border-radius: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
